@@ -56,7 +56,7 @@ body{
     color: white;
     padding: 5px;
     border-radius: 28px;
-    transform: translateY(4px);
+    /* transform: translateY(4px); */
 }
 
 .btn:hover{
