@@ -56,9 +56,14 @@ body{
     color: white;
     padding: 5px;
     border-radius: 28px;
-    /* transform: translateY(4px); */
+    transform: translateY(4px);
+    cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: pink;
+}
+
+.btn:active {
+    color: black;
 }
