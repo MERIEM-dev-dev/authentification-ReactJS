@@ -2,14 +2,13 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url(backgound1.jpg) no-repeat;
-    background-size: cover;
+    background: url(Shadow-Fall-Background.svg) no-repeat;
 }
 
 .login-box {
     width: 280px;
     position: absolute;
-    top: 1%;
+    top: -10%;
     left: 50%;
     transform: translate(-50%, 50%);
     color: white;
