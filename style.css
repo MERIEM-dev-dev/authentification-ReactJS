@@ -66,3 +66,11 @@ button:hover {
 button:active {
     color: black;
 }
+
+a {
+    color: white;
+}
+
+a:active {
+    color: pink;
+}
