@@ -1,6 +1,9 @@
 {
-   "Enter Your Name" : "",
-   "Enter Email" : "",
-   "Enter Password" : "",
-   "Repeat Password" : ""
+    "users":[
+        {
+            "Name" : "mariyam",
+            "Email" : "m@kk.com",
+            "Password" : "jhjh"
+         }
+    ]
 }
