@@ -3,10 +3,11 @@ import Form from './Form';
 import '../index.css';
 
 function SignupForm () {
-  const [value, setValues] = useState {
-    name:"",
-    email:
-  }
+  const [value, setValues] = useState ({
+  name:"",
+  email:"",
+  password:""
+})
     const handleFormSubmit = (event) => {
         event.preventDefault();
     };
