@@ -1,0 +1,19 @@
+{
+  "name": "myapi",
+  "version": "1.0.0",
+  "description": "my api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MERIEM-dev-dev/authentification-ReactJS.git"
+  },
+  "author": "meriem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MERIEM-dev-dev/authentification-ReactJS/issues"
+  },
+  "homepage": "https://github.com/MERIEM-dev-dev/authentification-ReactJS#readme"
+}

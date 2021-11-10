@@ -1,10 +1,10 @@
 import React from 'react'
+import Form from './Form';
 
 function SignupForm () {
-
-        const handleFormSubmit = (event) => {
-            event.preventDefault();
-        };
+    const handleFormSubmit = (event) => {
+        event.preventDefault();
+    };
     return (
     <div className="login-box">
         <h1>Sign Up</h1>
@@ -24,8 +24,10 @@ function SignupForm () {
           <i className="fas fa-lock" />
           <input type="password" placeholder="Repeat Password" name="psw-repeat"/>
         </div>
-        <button onclick= {handleFormSubmit}>Sign Up</button><br/><br/>
-        <a href="login.html" type="text">Already have an account?</a>
+        {/* <button onclick="window.location.href='realisation\Form.js';">Sign Up</button><br/><br/> */}
+        {/* <a href="Form." type="text">Already have an account?</a> */}
+        <button className="submit" onClick={handleFormSubmit}>Sign up</button>
+
     </div>
 
     )
