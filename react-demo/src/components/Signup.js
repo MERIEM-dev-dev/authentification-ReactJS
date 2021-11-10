@@ -1,5 +1,6 @@
 import React from 'react'
 import Form from './Form';
+import '../index.css';
 
 function SignupForm () {
     const handleFormSubmit = (event) => {
