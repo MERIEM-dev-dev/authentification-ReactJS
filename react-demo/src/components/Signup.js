@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SignupForm.component() {
+function SignupForm () {
     return (
         <div>
             
@@ -8,4 +8,4 @@ function SignupForm.component() {
     )
 }
 
-export default SignupForm.component;
+export default SignupForm;
