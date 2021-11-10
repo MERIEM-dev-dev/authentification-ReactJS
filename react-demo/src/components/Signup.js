@@ -1,10 +1,10 @@
 // import React, { useState } from 'react';
-import React from 'react'
+import React,{useState} from 'react'
 import Form from './Form';
 import '../index.css';
 
 function SignupForm () {
-  const [value, setValues] = useState ({
+  const [values, setValues] = useState ({
   name:"",
   email:"",
   password:""
@@ -29,10 +29,10 @@ function SignupForm () {
         </div>
         <div className="textbox">
           <i className="fas fa-lock" />
-          <input type="password" placeholder="Repeat Password" name="psw-repeat"  value={values.password}}/>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat"  value={values.password}/>
         </div>
-        // <button onclick="window.location.href='realisation\Form.js';">Sign Up</button><br/><br/>
-        //  <a href="Form." type="text">Already have an account?</a> 
+         {/* <button onclick="window.location.href='realisation\Form.js';">Sign Up</button><br/><br/>
+         <a href="Form." type="text">Already have an account?</a>  */}
         <button className="submit" onClick={handleFormSubmit}>Sign up</button>
 
     </div>
