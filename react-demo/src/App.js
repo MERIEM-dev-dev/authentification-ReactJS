@@ -1,6 +1,6 @@
 import { React } from 'react';
 import './App.css';
-import {BrowserRouter, Switch, Route} from "react-router-dom";
+import { Router, Switch, Route } from "react-router-dom";
 // import Form from "./components/Form";
 import Signup from "./components/Signup";
 
@@ -11,13 +11,14 @@ function App () {
     <div className="App">
     {/* <Form /> */}
     <Signup />
-
-    <BrowserRouter>
-<Route   path="/Signup" component={<Signup />}/>
+    <Router>
+    <Routes>
+      <Route path="/Signup" element ={<Signup />}/>
 {/* <Route  path="/reg" component={Register}/>
 <Route  path="/logout" component={Logout}/>
 <Route  path="/session" component={Session}/> */}
-</BrowserRouter>
+</Routes>
+</Router>
     </div>
   );
 }
