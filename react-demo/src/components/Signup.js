@@ -13,6 +13,7 @@ function SignupForm () {
 
     const handleFormSubmit = (event) => {
         event.preventDefault();
+        
     };
     return (
     <div className="login-box">
