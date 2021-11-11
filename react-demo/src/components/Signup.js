@@ -2,6 +2,7 @@
 import React,{useState} from 'react'
 import Form from './Form';
 import '../index.css';
+import axios from 'axios';
 
 
 function SignupForm () {
@@ -16,8 +17,8 @@ function SignupForm () {
     const handleFormSubmit = (event) => {
         event.preventDefault();
         const url = "http://localhost:3000/users";
-        axios.post(url , preventDefault)
-        .then(response => proccesMessage(meriem + "Save Successfully !"))
+        axios.post(url , event.preventDefault())
+        //.then(response => proccesMessage(meriem + "Save Successfully !"))
     };
     return (
     <div className="login-box">
