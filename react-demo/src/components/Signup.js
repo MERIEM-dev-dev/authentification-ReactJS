@@ -60,6 +60,11 @@ function SignupForm () {
          {/* <button onclick="window.location.href='realisation\Form.js';">Sign Up</button><br/><br/>
          <a href="Form." type="text">Already have an account?</a>  */}
         <button className="submit" onClick={handleFormSubmit}>Sign up</button>
+        {/* <Link to="react-demo\src\components\Form.js"></Link> */}
+        <a href="react-demo\src\components\Form.js" type="text">Already have an account?</a>
+        <div>
+            
+         </div>
 
     </div>
 
