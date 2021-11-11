@@ -1,14 +1,25 @@
 import { React } from 'react';
 import './App.css';
-import { Router, Switch, Route } from "react-router-dom";
+import { Router, Route, Routes } from "react-router-dom";
 // import Form from "./components/Form";
+import Data from './data.json' ;
 import Signup from "./components/Signup";
 
 
 
 function App () {
-  return (
+  return  ( 
     <div className="App">
+        <div className="posts">
+        { Data.map(post => {
+          return (
+            <div key={  post.id  }>
+               <h4>{  post.title  }</h4>
+               <p>{  post.content  }</p>
+            </div>
+          )
+        }) }
+       
     {/* <Form /> */}
     <Signup />
     <Router>
@@ -20,6 +31,7 @@ function App () {
 </Routes>
 </Router>
     </div>
+   </div>
   );
 }
 
