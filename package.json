@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MERIEM-dev-dev/authentification-ReactJS/issues"
   },
-  "homepage": "https://github.com/MERIEM-dev-dev/authentification-ReactJS#readme"
+  "homepage": "https://github.com/MERIEM-dev-dev/authentification-ReactJS#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
 }
