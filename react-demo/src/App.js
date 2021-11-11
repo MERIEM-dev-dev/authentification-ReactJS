@@ -2,7 +2,7 @@ import { React } from 'react';
 import './App.css';
 import { Router, Route, Routes } from "react-router-dom";
 // import Form from "./components/Form";
-import Data from './data.json' ;
+import Data from 'data.json' ;
 import Signup from "./components/Signup";
 
 
