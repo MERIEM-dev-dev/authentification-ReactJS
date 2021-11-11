@@ -15,4 +15,18 @@ function App () {
   );
 }
 
+<BrowserRouter>
+ <Container>
+  <Row>
+
+
+<Route   path="/Login" component={Login}/>
+<Route  path="/reg" component={Register}/>
+<Route  path="/logout" component={Logout}/>
+<Route  path="/session" component={Session}/>
+</Row>
+ </Container>
+
+</BrowserRouter>
+
 export default App;
