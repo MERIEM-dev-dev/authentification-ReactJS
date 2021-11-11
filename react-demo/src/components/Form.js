@@ -16,7 +16,7 @@ const Form = () => {
       </div>
       {/* <a href="Home.html" type="submit">Log in</a><br><br> */}
       <button onclick="window.location.href='Home.html';">Login</button><br /><br />
-      <a href="signup.html" type="text">Create an account</a>
+      <a href="index.html" type="text">Create an account</a>
     </div>
     );
 };
