@@ -20,10 +20,10 @@ function App () {
   <Row>
 
 
-<Route   path="/Login" component={Login}/>
-<Route  path="/reg" component={Register}/>
+<Route   path="/Sign up" component={Signup}/>
+{/* <Route  path="/reg" component={Register}/>
 <Route  path="/logout" component={Logout}/>
-<Route  path="/session" component={Session}/>
+<Route  path="/session" component={Session}/> */}
 </Row>
  </Container>
 
