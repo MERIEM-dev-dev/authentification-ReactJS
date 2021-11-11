@@ -11,8 +11,12 @@ function App () {
     <div className="App">
     {/* <Form /> */}
     <Signup />
+    <switch>
+        <Router path="/react-demo\src\components\Form.js"></Router>
+    </switch>
     </div>
   );
 }
+
 
 export default App;
