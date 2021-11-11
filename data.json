@@ -1,11 +1,13 @@
 {
     "users":[
         {
+            "id" : 1,
                 "name" : "meriem",
                 "email" : "meriem@gmail.com",
                 "password" : "meriem"
         },
         {
+            "id" : 2,
             "name" : "ahouzi",
             "email" : "ahouzi@gmail.com",
             "password" : "ahouzi"
@@ -20,4 +22,4 @@
 
 
 // http://localhost:3000/users
-//https://www.youtube.com/watch?v=cpRJHc1QJ84&t=9s
+// https://www.youtube.com/watch?v=cpRJHc1QJ84&t=9s
