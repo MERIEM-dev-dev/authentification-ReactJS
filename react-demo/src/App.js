@@ -16,16 +16,14 @@ function App () {
 }
 
 <BrowserRouter>
- <Container>
-  <Row>
 
 
-<Route   path="/Sign up" component={Signup}/>
+
+<Route   path="/Signup" component={Signup}/>
 {/* <Route  path="/reg" component={Register}/>
 <Route  path="/logout" component={Logout}/>
 <Route  path="/session" component={Session}/> */}
-</Row>
- </Container>
+
 
 </BrowserRouter>
 
