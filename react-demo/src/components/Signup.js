@@ -61,7 +61,7 @@ function SignupForm () {
          <a href="Form." type="text">Already have an account?</a>  */}
         <button className="submit" onClick={handleFormSubmit}>Sign up</button>
         {/* <Link to="react-demo\src\components\Form.js"></Link> */}
-        <a href="react-demo\src\components\Form.js" type="text">Already have an account?</a>
+        <a href="/Form.js" type="text">Already have an account?</a>
         <div>
             
          </div>
